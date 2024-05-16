@@ -1,0 +1,86 @@
+#home{
+    height: 90vh;
+    background: rgb(22, 22, 22);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+.img img{
+    width: 20rem;
+}
+.welcome{
+    margin-top: 65px;
+    width: 50%;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: rgb(185, 185, 185);
+}
+.welcome p:first-child{
+    font-size: 1.5rem;
+}
+.welcome h2{
+    font-size: 2rem;
+}
+.welcome h2 span{
+    color: orangered;
+}
+.welcome h1{
+    font-size: 3rem;
+    color: rgb(255, 92, 32);
+}
+.welcome p:last-child{
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+}
+
+@media (max-width: 1028px){
+    #home{
+        height: inherit;
+        flex-direction: column;
+    }
+    .welcome{
+        width: 100%;
+    }
+    .welcome p:first-child{
+        font-size: 1.2rem;
+    }
+    .welcome h2{
+        font-size: 1.5rem;
+    }
+    .welcome h1{
+        font-size: 2rem;
+    }
+    .welcome p:last-child{
+        font-size: 1.1rem;
+        line-height: 2rem;
+    }
+}
+@media (max-width: 600px){
+    #home{
+        height: inherit;
+    }
+    .welcome{
+        width: 100%;
+        padding: 10px 25px;
+    }
+    .welcome p:first-child{
+        font-size: 1rem;
+    }
+    .welcome h2{
+        font-size: 1rem;
+    }
+    .welcome h1{
+        font-size: 1.5rem;
+    }
+    .welcome p:last-child{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .img img{
+        width: 15rem;
+    }
+}

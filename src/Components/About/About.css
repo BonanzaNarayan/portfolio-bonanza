@@ -1,0 +1,100 @@
+#about{
+    margin: 20px 50px;
+}
+.about-title{
+    padding: 20px 50px;
+}
+.about-title hr{
+    width: 15%;
+    background: orangered;
+    height: 6px;
+    border: 0;
+    border-radius: 20px;
+}
+.about-title h1{
+    font-size: 2rem;
+    color: orangered;
+}
+.all-about{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.about-left{
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(207, 207, 207);
+    gap: 10px;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.about-me p {
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+.skills ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.skills ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+.skills ul li hr{
+    width: 70%;
+    height: 10px;
+    border: 0;
+    background: linear-gradient(
+        to left, red, orangered
+    );
+    border-radius: 10px;
+}
+.about-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-right img{
+    width: 25rem;
+}
+
+@media (max-width: 1028px){
+    .all-about{
+        flex-direction: column;
+    }
+}
+@media (max-width: 600px){
+    #about{
+        margin: 5px;
+    }
+    .about-me p {
+        font-size: 1.1rem;
+        line-height: 30px;
+    }
+    .about-right img{
+        width: 15rem;
+    }
+}
+@media (max-width: 280px){
+    .about-title{
+        padding: 20px;
+    }
+    .about-title h1{
+        font-size: 1.5rem;
+    }
+    .all-about .about-left{
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}
