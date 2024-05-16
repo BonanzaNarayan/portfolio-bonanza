@@ -45,8 +45,8 @@ function Contact() {
                 <h2>I'm excited to work with you on your next web development project to bring your dream web app to life. Hit me up, let's create a website that's both beautiful and functional! </h2>
 
                 <div className="links-socials">
-                    <a href="github.com/BonanzaNarayan/"><img src={github} alt="" /> Github</a>
-                    <a href="linkedin.com/in/bonanza-narayan-2695b5297"><img src={linkedin} alt="" />Linkedin</a>
+                    <a href="https://github.com/BonanzaNarayan/"><img src={github} alt="" /> Github</a>
+                    <a href="https://linkedin.com/in/bonanza-narayan-2695b5297"><img src={linkedin} alt="" />Linkedin</a>
                     <a href="https://www.instagram.com/bonanza_narayan/"><img src={ig} alt="" /> Instagram</a>
                     <a href="https://linktr.ee/Kyvz404/"><img src={chain} alt="" /> Other Links</a>
                 </div>
